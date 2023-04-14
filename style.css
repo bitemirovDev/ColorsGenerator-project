@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* font-family: 'Fredoka One', cursive;
+font-family: 'Roboto', sans-serif; */
+
+body{
+    height: 100vh;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+}
+
+.col{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.col h2{
+    padding: 10px;
+    color: #fff;
+    border-radius: 10px;
+    transition: background .4s;
+}
+
+/* .col h2::after{
+    content: 'Copyed';
+    font-size: 15px;
+    position: absolute;
+    left: 30%;
+    top: -30px;
+    border: 1px solid black;
+    background-color: black;
+    padding: 5px;
+    color: white;
+    visibility: hidden;
+} */
+
+.col h2:hover{
+    background: rgba(0,0,0, 0.1);
+    cursor: pointer;
+}
+
+.col button{
+    border: none;
+    background: transparent;
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 10px;
+    transition: background .4s;
+    border-radius: 10px;
+    outline: none;
+}
+
+.col button:hover{
+    background: rgba(0,0,0, 0.1);
+    cursor: pointer;
+}
